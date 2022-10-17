@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .flex-box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1006px;
+        height: 717px;
+        left: 180px;
+        /* top: 2615px; */
+        right: 180px;
+        /* bottom: 3747px; */
+        position: absolute;
+        }
+      
+        
+        .flex-item{
+            position: relative;
+            display: flex;
+            width: 1006px;
+            height: 124px;
+            left: -4px;
+            right: 180px;
+            bottom: 64px;
+        }
+        /* .flex-item:nth-of-type(1) {
+            top: 2744px;
+        }
+        .flex-item:nth-of-type(2) {
+            top: 2932px;
+        }
+        .flex-item:nth-of-type(3) {
+            top: 3120px;
+        } */
+
+
+        section {
+            background: #1E1E1E;
+            /* padding: var(--left-right-padding); */
+        }
+        
+       .flex-item::before {
+            content: " ";
+            border: 1px solid var(--main-color);
+            transform: rotate(90deg);
+            position: absolute;
+            width: 109px;
+            height: 0px;
+            left: -54px;
+            top: 55px;
+                
+        }
+        .flex-item:nth-of-type(1)::before {
+            /* top: 2754px; */
+            bottom: 79px;
+        }
+        .flex-item:nth-of-type(2)::before {
+            /* top: 2942px; */
+            bottom: 79px;
+        }
+        .flex-item:nth-of-type(3)::before {
+            /* top: 3130px; */
+            bottom: 69px;
+        }
+        
+        .achievement {
+            margin-left: 364px;
+            margin-right: 350px;
+            width: 292px;
+            height: 54px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.8125rem;
+            line-height: 54px;
+            text-transform: capitalize;
+            color: var(--primary-color);
+            
+        }
+        
+        
+        .box {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        
+        /* founder & CEO at focal X agency */
+        .tit  {
+            margin-left: 24px;
+            margin-right: 506px;
+            height: 40px;
+            /* top: 2932px; */
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5625rem;
+            line-height: 40px;
+            color: var(--primary-color);
+        }
+        
+         /* 2022/09/09 */
+        .date {
+            margin-left: 506px;
+            margin-right: 0px;
+            position: absolute;
+            width: 90px;
+            height: 22px;
+            right: 0px;
+            /* top: 2944px; */
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 22px;
+            color: var(--main-color);
+        
+        }
+        .paragraph {
+            margin-left: 24px;
+            width: 982px;
+            height: 66px;
+            left: 204px;
+            /* top: 2990px; */
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 22px;
+            color: var(--primary-color);
+        
+        }
+        
+         /* view more */
+        
+       
+        .flex-box .more{
+                color: var(--main-color);
+                text-align: center;
+                margin-top: 64px;
+                margin-left: 454px;
+                margin-bottom: 44px;
+                border-bottom: 1px solid var(--main-color);
+            }
+        
+       
+        
+        
+        
+       
